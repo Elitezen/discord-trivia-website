@@ -1,0 +1,22 @@
+{
+  "name": "discord-trivia-docs",
+  "version": "0.0.1",
+  "description": "Guide and documentation for discord-trivia",
+  "main": "index.js",
+  "authors": {
+    "name": "Alejandro M",
+    "email": "dev.alejandromarin@gmail.com"
+  },
+  "repository": "/discord-trivia-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
