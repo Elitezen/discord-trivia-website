@@ -7,7 +7,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: '...',
-  base: 'https://github.com/Elitezen/<REPO>',
+  base: 'https://github.com/Elitezen/discord-trivia-website',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`

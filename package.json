@@ -1,5 +1,5 @@
 {
-  "name": "discord-trivia-docs",
+  "name": "discord-trivia-website",
   "version": "0.0.1",
   "description": "Guide and documentation for discord-trivia",
   "main": "index.js",
@@ -7,14 +7,14 @@
     "name": "Alejandro M",
     "email": "dev.alejandromarin@gmail.com"
   },
-  "repository": "/discord-trivia-docs",
+  "repository": "https://github.com/Elitezen/discord-trivia-website",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "vuepress": "^0.14.11"
   },
   "dependencies": {
     "gh-pages": "^6.1.1"
