@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Guide and documentation for discord-trivia
-actionText: Quick Start →
+heroImage: https://i.imgur.com/9gqrPGC.png
+tagline: The official guide for discord-trivia. Create fully-fledged trivia games along side Discord.JS.
+actionText: Get Started →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by  with ❤️
+- title: Fully Complete Trivia Experience
+  details: Setup a fully fledged trivia experience in just a few lines of code!
+- title: Completely Customizable
+  details: Make your games unique with extensive customization and configuration.
+- title: Fully Typed
+  details: Built and documented with TypeScript
+footer: Made by Elitezen with ❤️
 ---

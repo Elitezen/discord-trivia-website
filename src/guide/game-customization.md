@@ -12,18 +12,16 @@ The following embeds can be overridden entirely:
 - `gameQueueTimeout: () => EmbedBuilder;`
 - `question: (question:GameQuestion) => EmbedBuilder;`
 - `leaderboardUpdate: (leaderboard:any) => EmbedBuilder;`
-
 - `playerNotInMatch: (user:User) => EmbedBuilder;`
 - `playerAlreadyAnswered: (player:Player) => EmbedBuilder;`
 - `playerAnsweredStats: (player:Player, timeElapsed:number) => EmbedBuilder;`
 - `playerAlreadyQueued: (player:Player) => EmbedBuilder;`
-
 - `filterReject: (user:User) => EmbedBuilder;`
 - `gameEnd: (leaderboard:any) => EmbedBuilder;`
 
 Here's a simple example of overwriting an embed:
 
-```js
+```javascript
 game.config.embeds.playerJoin = player => {
     return new EmbedBuilder()
         .setDescription(`Welcome, ${player.user}!`)
@@ -42,7 +40,7 @@ Buttons can be overwritten in a similar fashion.
 - `questionOptionTrue: ButtonBuilder;`
 - `questionOptionFalse: ButtonBuilder;`
 
-```js
+```javascript
 import { ButtonStyle } from 'discord.js'
 
 game.config.buttons.join = new ButtonBuilder()

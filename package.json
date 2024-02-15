@@ -9,8 +9,9 @@
   },
   "repository": "https://github.com/Elitezen/discord-trivia-website",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build src",
+    "docs:deploy": "vuepress build && gh-pages -d src/.vuepress/dist"
   },
   "license": "MIT",
   "devDependencies": {
